@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">Dashboard 2 Placeholder</title>
+  <desc id="desc">Placeholder for Anchor Investors dashboard screenshot</desc>
+  <rect width="900" height="540" fill="#ecfeff" />
+  <rect x="40" y="40" width="820" height="460" rx="18" fill="#ffffff" stroke="#67e8f9" stroke-dasharray="8 8" />
+  <text x="450" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#155e75">Anchor Investors Dashboard</text>
+  <text x="450" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#334155">Screenshot Placeholder</text>
+</svg>
