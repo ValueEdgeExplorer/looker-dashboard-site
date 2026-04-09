@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboards Hub | SME IPO Mastery Hub</title>
+    <meta name="description" content="Explore three SME IPO dashboards: Mainboard vs SME performance, Anchor Investor performance, and the flagship Beyond Financials multi-factor model." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>tailwind.config = { darkMode: "class" };</script>
+  </head>
+  <body class="bg-slate-50 text-slate-800 antialiased dark:bg-slate-950 dark:text-slate-100">
+    <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur dark:border-slate-800 dark:bg-slate-900/95">
+      <div class="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        <a href="index.html" class="text-base font-semibold tracking-tight">SME IPO Mastery Hub</a>
+        <button id="menu-toggle" class="rounded-md border border-slate-300 px-3 py-2 text-sm md:hidden dark:border-slate-700">Menu</button>
+        <nav class="hidden items-center gap-6 md:flex">
+          <a href="index.html" class="text-sm">Home</a><a href="journey.html" class="text-sm">My Journey</a><a href="sme-platform.html" class="text-sm">SME Platform 101</a><a href="dashboards.html" class="text-sm font-semibold text-blue-600">Dashboards</a><a href="methodology.html" class="text-sm">Methodology</a><a href="insights.html" class="text-sm">Insights</a><a href="resources.html" class="text-sm">Resources</a><a href="contact.html" class="text-sm">Contact</a>
+          <button id="theme-toggle" class="rounded-md border border-slate-300 px-3 py-2 text-xs dark:border-slate-700">Theme</button>
+        </nav>
+      </div>
+      <nav id="mobile-menu" class="hidden border-t border-slate-200 px-4 py-3 md:hidden dark:border-slate-800">
+        <div class="grid gap-2 text-sm">
+          <a href="index.html">Home</a><a href="journey.html">My Journey</a><a href="sme-platform.html">SME Platform 101</a><a href="dashboards.html" class="font-semibold text-blue-600">Dashboards</a><a href="methodology.html">Methodology</a><a href="insights.html">Insights</a><a href="resources.html">Resources</a><a href="contact.html">Contact</a>
+          <button id="theme-toggle-mobile" class="rounded-md border border-slate-300 px-3 py-2 text-left text-xs dark:border-slate-700">Toggle Theme</button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="mx-auto w-full max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+      <h1 class="text-3xl font-bold sm:text-4xl">Dashboards Hub</h1>
+      <p class="mt-4 max-w-3xl leading-7 text-slate-600 dark:text-slate-300">
+        These dashboards convert years of research into an exploratory format for investors, analysts, and institutions evaluating Indian SME IPO opportunities.
+      </p>
+
+      <section class="mt-10 space-y-8">
+        <article class="rounded-xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
+          <h2 class="text-2xl font-semibold">Mainboard vs SME IPO Performance (2022 onward)</h2>
+          <p class="mt-3 text-slate-600 dark:text-slate-300"><strong>Why it matters:</strong> Establishes context for risk-reward asymmetry across segments.</p>
+          <p class="mt-2 text-slate-600 dark:text-slate-300"><strong>How to use:</strong> Compare listing gains, post-listing trends, and cycle behavior.</p>
+          <p class="mt-2 text-slate-600 dark:text-slate-300"><strong>Description:</strong> Designed to show where SMEs can outperform if selection discipline is high.</p>
+          <!-- Dashboard Embed: Mainboard vs SME -->
+          <div class="mt-4 overflow-hidden rounded-lg border border-slate-200 dark:border-slate-700">
+            <iframe
+              title="Mainboard vs SME IPO Dashboard"
+              src="https://lookerstudio.google.com/embed/reporting/3643ab2d-aac7-4d9e-ac34-24373b463e82/page/klLsF"
+              class="h-[560px] w-full"
+              loading="lazy"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </article>
+
+        <article class="rounded-xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
+          <h2 class="text-2xl font-semibold">Anchor Investors Performance Dashboard (2022 onward)</h2>
+          <p class="mt-3 text-slate-600 dark:text-slate-300"><strong>Why it matters:</strong> Anchor quality often signals diligence, confidence, and issue credibility.</p>
+          <p class="mt-2 text-slate-600 dark:text-slate-300"><strong>How to use:</strong> Filter by anchor names and examine subsequent stock behavior.</p>
+          <p class="mt-2 text-slate-600 dark:text-slate-300"><strong>Description:</strong> Helps identify which anchor participation patterns align with stronger outcomes.</p>
+          <!-- Dashboard Embed: Anchor Investors -->
+          <div class="mt-4 overflow-hidden rounded-lg border border-slate-200 dark:border-slate-700">
+            <iframe
+              title="Anchor Investors Dashboard"
+              src="https://lookerstudio.google.com/embed/reporting/4739ea8d-920f-4006-8f06-9a2372558a94/page/yvKmF"
+              class="h-[560px] w-full"
+              loading="lazy"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </article>
+
+        <article class="rounded-xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
+          <h2 class="text-2xl font-semibold">Beyond Financials Multi-Factor Dashboard (Flagship)</h2>
+          <p class="mt-3 text-slate-600 dark:text-slate-300"><strong>Why it matters:</strong> Financial metrics alone miss key SME-specific drivers.</p>
+          <p class="mt-2 text-slate-600 dark:text-slate-300"><strong>How to use:</strong> Apply combinations of factors such as lead manager quality, issue type, anchors, seasonality, and market structure cues.</p>
+          <p class="mt-2 text-slate-600 dark:text-slate-300"><strong>Description:</strong> My proprietary framework built from three years of research, manual validation, and pattern testing.</p>
+          <!-- Dashboard Embed: Beyond Financials -->
+          <div class="mt-4 overflow-hidden rounded-lg border border-slate-200 dark:border-slate-700">
+            <iframe
+              title="Beyond Financials Dashboard"
+              src="https://lookerstudio.google.com/embed/reporting/15a0e45a-ca90-48e2-86a2-1b4ae29825be/page/p_oxqjihlo1d"
+              class="h-[560px] w-full"
+              loading="lazy"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-200 bg-white py-8 dark:border-slate-800 dark:bg-slate-900">
+      <div class="mx-auto flex w-full max-w-7xl flex-col gap-3 px-4 text-sm text-slate-500 sm:px-6 lg:px-8 md:flex-row md:justify-between">
+        <p>&copy; <span id="year"></span> SME IPO Mastery Hub. All rights reserved.</p>
+        <p class="font-medium text-slate-600 dark:text-slate-300">Disclaimer: Not investment advice.</p>
+      </div>
+    </footer>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>

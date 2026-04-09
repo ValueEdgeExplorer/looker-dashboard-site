@@ -4,12 +4,131 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Journey | SME IPO Mastery Hub</title>
-    <meta name="description" content="My Journey page is under construction." />
+    <meta
+      name="description"
+      content="The personal journey behind SME IPO Mastery Hub: from the 2022 SME index inflection to building a Beyond Financials dashboard for serious investors."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = { darkMode: "class" };
+    </script>
   </head>
-  <body>
-    <main>
-      <h1>My Journey</h1>
-      <p>This page structure is ready. Full content will be added next.</p>
+  <body class="bg-slate-50 text-slate-800 antialiased dark:bg-slate-950 dark:text-slate-100">
+    <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur dark:border-slate-800 dark:bg-slate-900/95">
+      <div class="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        <a href="index.html" class="text-base font-semibold tracking-tight text-slate-900 dark:text-white">SME IPO Mastery Hub</a>
+        <button id="menu-toggle" class="rounded-md border border-slate-300 px-3 py-2 text-sm md:hidden dark:border-slate-700">Menu</button>
+        <nav class="hidden items-center gap-6 md:flex">
+          <a href="index.html" class="text-sm">Home</a>
+          <a href="journey.html" class="text-sm font-semibold text-blue-600">My Journey</a>
+          <a href="sme-platform.html" class="text-sm">SME Platform 101</a>
+          <a href="dashboards.html" class="text-sm">Dashboards</a>
+          <a href="methodology.html" class="text-sm">Methodology</a>
+          <a href="insights.html" class="text-sm">Insights</a>
+          <a href="resources.html" class="text-sm">Resources</a>
+          <a href="contact.html" class="text-sm">Contact</a>
+          <button id="theme-toggle" class="rounded-md border border-slate-300 px-3 py-2 text-xs dark:border-slate-700">Theme</button>
+        </nav>
+      </div>
+      <nav id="mobile-menu" class="hidden border-t border-slate-200 px-4 py-3 md:hidden dark:border-slate-800">
+        <div class="grid gap-2 text-sm">
+          <a href="index.html">Home</a><a href="journey.html" class="font-semibold text-blue-600">My Journey</a><a href="sme-platform.html">SME Platform 101</a><a href="dashboards.html">Dashboards</a><a href="methodology.html">Methodology</a><a href="insights.html">Insights</a><a href="resources.html">Resources</a><a href="contact.html">Contact</a>
+          <button id="theme-toggle-mobile" class="rounded-md border border-slate-300 px-3 py-2 text-left text-xs dark:border-slate-700">Toggle Theme</button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="mx-auto w-full max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
+      <section>
+        <p class="inline-block rounded-full border border-emerald-400/40 bg-emerald-50 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-emerald-700 dark:bg-emerald-900/20 dark:text-emerald-300">Founder Story</p>
+        <h1 class="mt-4 text-3xl font-bold sm:text-4xl">My Journey: Building a Beyond Financials Lens for SME IPOs</h1>
+        <p class="mt-5 leading-7 text-slate-600 dark:text-slate-300">
+          I am NISM XIX-C and NISM XIX-E certified and deeply focused on Indian SME IPO behavior. These certifications align with AIF portfolio management competency requirements, and this page is my first-person journey from curiosity in 2022 to building a proprietary framework and dashboard that I now want to share with serious funds, banks, and institutions.
+        </p>
+      </section>
+
+      <section class="mt-10">
+        <h2 class="text-2xl font-semibold">Timeline</h2>
+        <div class="mt-6 space-y-5 border-l-2 border-slate-300 pl-6 dark:border-slate-700">
+          <article>
+            <p class="text-sm font-semibold text-blue-600">September 2022</p>
+            <p class="mt-1 leading-7 text-slate-600 dark:text-slate-300">
+              SME IPOs unexpectedly captured my attention. Listing gains and repeated upper circuits, especially among high-quality issuers in September and October, stood out immediately.
+            </p>
+          </article>
+          <article>
+            <p class="text-sm font-semibold text-blue-600">November 2022</p>
+            <p class="mt-1 leading-7 text-slate-600 dark:text-slate-300">
+              While analyzing outcomes, I saw the S&amp;P BSE SME IPO Index on TradingView. Its sharp trajectory changed my perspective and pushed me to pause my regular job to study this "big yet small" opportunity full-time.
+            </p>
+          </article>
+          <article>
+            <p class="text-sm font-semibold text-blue-600">March 2023</p>
+            <p class="mt-1 leading-7 text-slate-600 dark:text-slate-300">
+              After nearly five months of intensive study, I made my first investment in SME stocks. With hindsight, my understanding was still at an early stage, but the learning process had truly begun.
+            </p>
+          </article>
+          <article>
+            <p class="text-sm font-semibold text-blue-600">2023 to Present</p>
+            <p class="mt-1 leading-7 text-slate-600 dark:text-slate-300">
+              Three years later, I have built real market experience, refined a multi-factor framework, and developed a dashboard-led process to evaluate both IPO applications and post-listing investments.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="mt-12 grid gap-6 md:grid-cols-2">
+        <article class="rounded-xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900">
+          <h3 class="text-lg font-semibold">S&amp;P BSE SME IPO Index Reference</h3>
+          <p class="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-300">
+            This chart marked a turning point in my research journey.
+          </p>
+          <div class="mt-4 rounded-lg border border-slate-200 bg-slate-50 p-4 text-sm dark:border-slate-700 dark:bg-slate-800/30">
+            <p class="text-slate-600 dark:text-slate-300">
+              Chart link:
+              <a class="font-semibold text-blue-600 hover:underline" href="https://www.tradingview.com/symbols/BSE-SMEIPO/" target="_blank" rel="noreferrer">S&amp;P BSE SME IPO Index on TradingView</a>
+            </p>
+            <p class="mt-2 text-slate-600 dark:text-slate-300">
+              Index reference page:
+              <a class="font-semibold text-blue-600 hover:underline" href="https://www.investing.com/indices/s-p-bse-sme-ipo" target="_blank" rel="noreferrer">S&amp;P BSE SME IPO Index overview</a>
+            </p>
+          </div>
+        </article>
+        <article class="rounded-xl border border-slate-200 bg-white p-5 dark:border-slate-800 dark:bg-slate-900">
+          <h3 class="text-lg font-semibold">NIFTY SME Emerge Reference</h3>
+          <p class="mt-2 text-sm leading-6 text-slate-600 dark:text-slate-300">
+            Comparative chart context for broader SME platform interpretation.
+          </p>
+          <div class="mt-4 rounded-lg border border-slate-200 bg-slate-50 p-4 text-sm dark:border-slate-700 dark:bg-slate-800/30">
+            <p class="text-slate-600 dark:text-slate-300">
+              Chart link:
+              <a class="font-semibold text-blue-600 hover:underline" href="https://www.tradingview.com/symbols/NSE-NIFTY_SME_EMERGE/" target="_blank" rel="noreferrer">NIFTY SME EMERGE on TradingView</a>
+            </p>
+            <p class="mt-2 text-slate-600 dark:text-slate-300">
+              Methodology and index details:
+              <a class="font-semibold text-blue-600 hover:underline" href="https://www.nseindia.com/static/products-services/emerge-nifty-sme-emerge-index" target="_blank" rel="noreferrer">NSE NIFTY SME EMERGE methodology page</a>
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="mt-12 rounded-xl border border-slate-200 bg-white p-6 dark:border-slate-800 dark:bg-slate-900">
+        <h2 class="text-2xl font-semibold">Core Realizations</h2>
+        <ul class="mt-4 list-disc space-y-3 pl-6 leading-7 text-slate-600 dark:text-slate-300">
+          <li>SME stocks can deliver outsized rewards, but the volatility can be extreme and unforgiving.</li>
+          <li>Financial metrics alone do not explain outcomes in this segment.</li>
+          <li>Qualitative and structural factors, including lead managers, market makers, issue design, and timing, strongly influence performance.</li>
+          <li>A disciplined multi-factor process paired with sound fundamentals can materially improve decision quality.</li>
+        </ul>
+      </section>
     </main>
+
+    <footer class="border-t border-slate-200 bg-white py-8 dark:border-slate-800 dark:bg-slate-900">
+      <div class="mx-auto flex w-full max-w-7xl flex-col gap-3 px-4 text-sm text-slate-500 sm:px-6 lg:px-8 md:flex-row md:justify-between">
+        <p>&copy; <span id="year"></span> SME IPO Mastery Hub. All rights reserved.</p>
+        <p class="font-medium text-slate-600 dark:text-slate-300">Disclaimer: Not investment advice.</p>
+      </div>
+    </footer>
+    <script src="assets/js/main.js" defer></script>
   </body>
 </html>
